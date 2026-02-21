@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Summit Pro Solutions</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+    scroll-behavior: smooth;
+}
+
+/* Header */
+header {
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    color: white;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 42px;
+}
+
+header p {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 25px;
+    padding: 12px 30px;
+    background: #ff7a00;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+
+.btn:hover {
+    background: #e66900;
+    transform: translateY(-3px);
+}
+
+/* Sections */
+section {
+    padding: 70px 20px;
+    text-align: center;
+}
+
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 40px;
+}
+
+.card {
+    background: white;
+    padding: 30px;
+    width: 280px;
+    border-radius: 10px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+    transition: 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+}
+
+/* Contact Section */
+.contact {
+    background: #2a5298;
+    color: white;
+}
+
+/* Footer */
+footer {
+    background: #111;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Mobile Improvements */
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 28px;
+    }
+
+    header p {
+        font-size: 16px;
+    }
+
+    .services {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>Summit Pro Solutions</h1>
+<p>Elevating Businesses Through Modern Digital Solutions</p>
+<a href="#contact" class="btn" aria-label="Request consultation">Get Started</a>
+</header>
+
+<section>
+<h2>About Us</h2>
+<p>We provide strategic consulting, operational support, and modern digital solutions to help businesses grow, scale, and compete in today's market.</p>
+</section>
+
+<section>
+<h2>Our Services</h2>
+<div class="services">
+
+<div class="card">
+<h3>Business Consulting</h3>
+<p>Helping companies improve efficiency and maximize profitability.</p>
+</div>
+
+<div class="card">
+<h3>Digital Solutions</h3>
+<p>Modern websites and digital tools designed for business growth.</p>
+</div>
+
+<div class="card">
+<h3>Project Management</h3>
+<p>Structured and efficient execution of business initiatives.</p>
+</div>
+
+</div>
+</section>
+
+<section id="contact" class="contact">
+<h2>Contact Us</h2>
+<p>Phone: +254700000000</p>
+<p>Email: info@summitpro.co.ke</p>
+<p>Location: Nairobi, Kenya</p>
+</section>
+
+<footer>
+<p>© 2026 Summit Pro Solutions. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
